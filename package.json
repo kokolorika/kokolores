@@ -1,0 +1,19 @@
+{
+  "name": "kokolores",
+  "version": "1.0.0",
+  "description": "Kokolores Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smotastic/kokolores.git"
+  },
+  "author": "smotastic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smotastic/kokolores/issues"
+  },
+  "homepage": "https://github.com/smotastic/kokolores#readme"
+}
