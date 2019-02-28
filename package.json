@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/smotastic/kokolores/issues"
   },
-  "homepage": "https://github.com/smotastic/kokolores#readme"
+  "homepage": "https://github.com/smotastic/kokolores#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
