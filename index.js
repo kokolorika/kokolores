@@ -4,7 +4,10 @@ var app = express()
 var kokolores = require('./kokolores.js')
 
 app.get('/', function (req, res) {
-  res.send({ kokolores: kokolores() });
+  var kokoloresStatement = kokolores();
+  console.log("Das ist doch kokolores!");
+  console.log(kokoloresStatement);
+  res.send({ kokolores: kokoloresStatement });
 })
 
 app.listen(3000)
