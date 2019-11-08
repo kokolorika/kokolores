@@ -9,4 +9,4 @@ app.get('/', function (req, res) {
   res.send({ kokolores: kokoloresStatement });
 })
 
-app.listen(3100)
+app.listen(process.env.PORT)
