@@ -5,7 +5,6 @@ var kokolores = require('./kokolores.js')
 
 app.get('/', function (req, res) {
   var kokoloresStatement = kokolores();
-  console.log("Das ist doch kokolores!");
   console.log(kokoloresStatement);
   res.send({ kokolores: kokoloresStatement });
 })
